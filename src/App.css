@@ -60,26 +60,28 @@
   background-repeat: no-repeat;
   background-position: cover;
 }
-nav {
-  display: flex;
-  justify-content: flex-start;
-}
-
-nav>div {
-  max-width: 33.3333%;
-  min-width: 33.3333%;
-}
-nav div a {
-  text-decoration: none;
-  color: #02281B;
-}
-
-.logo {
-  text-align: center;
-}
-
-.right {
-  text-align: right;
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  nav>div {
+    max-width: 33.3333%;
+    min-width: 33.3333%;
+  }
+  nav div a {
+    text-decoration: none;
+    color: #02281B;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
 }
 .btn-elder {
   background-color: #02281B !important;

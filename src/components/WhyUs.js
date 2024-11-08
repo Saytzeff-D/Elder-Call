@@ -12,26 +12,26 @@ const WhyUs = ()=>{
                 </p>
                 <div className='px-md-5'>
                     <div className='d-flex py-4 justify-content-center flex-md-row flex-column'>
-                        <div className='tag me-md-5 py-2 px-5 rounded-pill fs-2'>
+                        <div className='tag text-center me-md-5 py-2 px-md-5 px-3 rounded-pill fs-2 mb-md-0 mb-4'>
                             Personalized Celebrations
                         </div>
-                        <div className='tag py-2 ms-md-5 px-5 rounded-pill fs-2'>
+                        <div className='tag text-center py-2 ms-md-5 px-md-5 rounded-pill fs-2'>
                             Secure Sharing
                         </div>
                     </div>
-                    <div className='d-flex py-4 justify-content-center flex-md-row flex-column'>
-                        <div className='tag me-md-5 py-2 px-5 rounded-pill fs-2'>
+                    <div className='d-flex py-md-4 justify-content-center flex-md-row flex-column'>
+                        <div className='tag text-center me-md-5 py-2 px-md-5 rounded-pill fs-2 mb-md-0 mb-4'>
                             Never Miss a Moment
                         </div>
-                        <div className='tag py-2 ms-md-5 px-5 rounded-pill fs-2'>
+                        <div className='tag text-center py-2 ms-md-5 px-md-5 rounded-pill fs-2'>
                             Memories that Last
                         </div>
                     </div>
                     <div className='d-flex py-4 justify-content-center flex-md-row flex-column'>
-                        <div className='tag me-md-5 py-2 px-5 rounded-pill fs-2'>
+                        <div className='tag text-center me-md-5 py-2 px-md-5 rounded-pill fs-2 mb-md-0 mb-4'>
                             Effortless Connections
                         </div>
-                        <div className='tag py-2 ms-md-5 px-5 rounded-pill fs-2'>
+                        <div className='tag text-center py-2 ms-md-5 px-md-5 rounded-pill fs-2'>
                             Easy-to-Use Interface
                         </div>
                     </div>

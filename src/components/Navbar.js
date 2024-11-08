@@ -5,7 +5,7 @@ const Navbar = ()=>{
     return (
         <div>
             {/* Desktop Nav */}
-            {/* <div className='d-md-block d-none'>
+            <div className='d-md-block d-none'>
                 <nav className='container py-4'>
                     <div>
                         <a className='pe-5' href='#home'>Home</a>
@@ -21,11 +21,11 @@ const Navbar = ()=>{
                         </button>
                     </div>
                 </nav>
-            </div> */}
+            </div>
             {/* Mobile */}
-            <div className=''>
+            <div className='d-md-none d-block'>
                 <nav className="navbar navbar-expand-lg bg-white">
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="">
                             <img src={NavbarBrand} alt='navbar_brand' className='img-fluid' />
                         </div>
