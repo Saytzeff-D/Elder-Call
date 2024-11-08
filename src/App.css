@@ -1,38 +1,87 @@
-.App {
+.bg-elder-light {
+  background-color: #CCF6E7;
+  color: #02281B;
+}
+.fw-boldest {
+  font-weight: 900;
+}
+.fw-boldering {
+  font-weight: 500;
+}
+.btn-outline-elder {
+  border-color: #66E3B7 !important;
+  color: #7D988F !important;
+}
+.bg-faq {
+  background-color: #02281B;
+  color: #FBFCF8;
+}
+.border-faq {
+  border-color: #FBFCF8 !important;
+}
+.answer {
+  font-size: small;
+  font-weight: 100;
+}
+.question {
+  font-weight: 200;
+  font-size: medium;
+}
+.bg-whyus {
+  background-color: #CCF6E7;
+  color: #02281B;
+}
+.fs-7 {
+  font-size: small;
+}
+.tag {
+  background-color: #02281B;
+  color: #FBFCF8;
+}
+.bg-features {
+  background-color: #E5FAF3;
+  color: #02281B;
+}
+.card-feature {
+  background-color: #02281B;
+  color: #FBFCF8;
+  border-radius: 2%;
+}
+.card-title {
+  font-weight: 800;
+  font-size: larger;
+}
+.card-text {
+  font-size: small;
+}
+.header {
+  color: #02281B;
+  background: url('../src/assets/banner-bg.png');
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav>div {
+  max-width: 33.3333%;
+  min-width: 33.3333%;
+}
+nav div a {
+  text-decoration: none;
+  color: #02281B;
+}
+
+.logo {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.right {
+  text-align: right;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-elder {
+  background-color: #02281B !important;
+  color: #FBFCF8 !important;
 }
