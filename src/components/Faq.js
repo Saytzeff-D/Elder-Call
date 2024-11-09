@@ -15,13 +15,13 @@ const Faq = ()=>{
                         </p>
                         <div className='accordion accordion-flush mt-4 border-top' id='accordionFlushExample'>
                             <div className='accordion-item border-faq'>
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                         Q. How does the app work?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body bg-faq d-flex">
+                                <div id="flush-collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body bg-faq d-flex">
                                         <p className='pt-2 question' data-aos="fade">
                                             A.
                                         </p>
@@ -32,13 +32,13 @@ const Faq = ()=>{
                                 </div>                                
                             </div>
                             <div className='accordion-item border-faq'>
-                            <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
                                         Q. Is the app free to use?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body bg-faq d-flex">
+                                <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body bg-faq d-flex">
                                         <p className='question' data-aos="fade">
                                             A.
                                         </p>
@@ -49,13 +49,13 @@ const Faq = ()=>{
                                 </div>                                
                             </div>
                             <div className='accordion-item border-faq'>
-                            <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
                                         Q. Is my information secure on the app?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body bg-faq d-flex">
+                                <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body bg-faq d-flex">
                                         <p className='pt-2 question' data-aos="fade">
                                             A.
                                         </p>
@@ -66,13 +66,13 @@ const Faq = ()=>{
                                 </div>                                
                             </div>
                             <div className='accordion-item border-faq'>
-                            <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
                                         Q. What kind of music can I play for celebrations?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body bg-faq d-flex">
+                                <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body bg-faq d-flex">
                                         <p className='question' data-aos="fade">
                                             A.
                                         </p>
