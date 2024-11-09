@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarBrand from '../assets/logo-nav.png'
+import NavbarBrandMobile from '../assets/logo-nav-mobile.png'
 
 const Navbar = ()=>{
     return (
@@ -27,7 +28,7 @@ const Navbar = ()=>{
                 <nav className="navbar navbar-expand-lg bg-white">
                     <div className="container-fluid">
                         <div data-aos="fade" className="">
-                            <img src={NavbarBrand} alt='navbar_brand' className='img-fluid' />
+                            <img src={NavbarBrandMobile} alt='navbar_brand' className='img-fluid' />
                         </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
