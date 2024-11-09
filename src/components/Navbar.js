@@ -35,13 +35,13 @@ const Navbar = ()=>{
                         <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item px-md-2">
-                                <a data-aos="fade" className='nav-link'>Home</a>
+                                <a href='#home' data-aos="fade" className='nav-link'>Home</a>
                             </li>
                             <li className="nav-item px-md-2">
-                                <a data-aos="fade" className='nav-link'>Features</a>
+                                <a href='#features' data-aos="fade" className='nav-link'>Features</a>
                             </li>
                             <li className="nav-item px-md-2">
-                                <a data-aos="fade" className='nav-link'>Faqs</a>
+                                <a href='#faqs' data-aos="fade" className='nav-link'>Faqs</a>
                             </li>
                             <li data-aos="fade" className="nav-item px-md-2">
                                 <a href='https://drive.google.com/uc?export=download&id=1XkwQIsKB-RpcZmgqr8132Y9T6m2EZIBi' target='_blank' className='nav-link btn btn-elder' download>
