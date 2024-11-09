@@ -16,9 +16,9 @@ const Navbar = ()=>{
                         <img src={NavbarBrand} alt='navbar_brand' className='img-fluid' />
                     </div>
                     <div className="right">
-                        <button className='btn btn-elder'>
+                        <a href='https://drive.google.com/uc?export=download&id=1XkwQIsKB-RpcZmgqr8132Y9T6m2EZIBi' target='_blank' className='btn btn-elder' download>
                             Download Now
-                        </button>
+                        </a>
                     </div>
                 </nav>
             </div>
@@ -44,10 +44,8 @@ const Navbar = ()=>{
                                 <a className='nav-link'>Faqs</a>
                             </li>
                             <li className="nav-item px-md-2">
-                                <a className='nav-link'>
-                                <button className='btn btn-elder'>
+                                <a href='https://drive.google.com/uc?export=download&id=1XkwQIsKB-RpcZmgqr8132Y9T6m2EZIBi' target='_blank' className='nav-link btn btn-elder' download>
                                     Download Now
-                                </button>
                                 </a>
                             </li>                            
                         </ul>

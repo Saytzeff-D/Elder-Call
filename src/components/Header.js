@@ -12,9 +12,9 @@ const Header = ()=>{
                     <p className='fs-6'>
                         From birthdays to special achievements, share meaningful moments with ease.
                     </p>
-                    <button className='btn btn-outline-elder'>
+                    <a href='https://drive.google.com/uc?export=download&id=1XkwQIsKB-RpcZmgqr8132Y9T6m2EZIBi' target='_blank' className='btn btn-outline-elder' download>
                         Download Now
-                    </button>
+                    </a>
                 </div>
             </div>
             <img src={Banner} alt='header' className='img-fluid px-md-0 px-4' />

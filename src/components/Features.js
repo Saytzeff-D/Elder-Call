@@ -16,9 +16,9 @@ const Features = ()=>{
                         </p>
                     </div>
                     <div className='mb-md-0 mb-4'>
-                        <button className='btn btn-outline-elder'>
+                        <a href='https://drive.google.com/uc?export=download&id=1XkwQIsKB-RpcZmgqr8132Y9T6m2EZIBi' target='_blank' className='btn btn-outline-elder' download>
                             Download Now
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className="row w-100 mx-auto">

@@ -8,9 +8,9 @@ const Footer = ()=>{
                 <p className='display-1 footer-text py-2'>
                     <span>Start</span> <span className='fw-boldering'>Celebrating</span> <span className='fw-boldest'>Now</span>
                 </p>
-                <button className='btn btn-outline-elder'>
+                <a href='https://drive.google.com/uc?export=download&id=1XkwQIsKB-RpcZmgqr8132Y9T6m2EZIBi' target='_blank' className='btn btn-outline-elder' download>
                     Download Now
-                </button>
+                </a>
                 <div className='d-flex justify-content-between pt-5 flex-md-row flex-column'>
                     <div>
                         <img src={FooterLogo} alt='footerlogo' className='img-fluid' />
